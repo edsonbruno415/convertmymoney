@@ -1,0 +1,20 @@
+{
+  "name": "convertmymoney",
+  "version": "1.0.0",
+  "description": "Conversão de dólares",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "convertmoney",
+    "money"
+  ],
+  "author": "Edson Bruno",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jest": "^24.9.0"
+  }
+}
