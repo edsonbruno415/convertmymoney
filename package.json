@@ -4,7 +4,8 @@
   "description": "Conversão de dólares",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "keywords": [
     "convertmoney",
@@ -14,7 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "jest": "^24.9.0"
   }
 }
