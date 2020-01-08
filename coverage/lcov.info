@@ -1,5 +1,5 @@
 TN:
-SF:C:\Users\Desktop\Desktop\ConvertMyMoney\lib\apiBCB.js
+SF:C:\Users\StarDeath\Documents\convertmymoney\lib\apiBCB.js
 FN:3,(anonymous_0)
 FN:5,(anonymous_1)
 FN:6,(anonymous_2)
@@ -39,7 +39,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:C:\Users\Desktop\Desktop\ConvertMyMoney\lib\convert.js
+SF:C:\Users\StarDeath\Documents\convertmymoney\lib\convert.js
 FN:1,convert
 FN:5,toMoney
 FNF:2
