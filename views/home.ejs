@@ -1,7 +1,7 @@
 <%- include('header')%>
-<form method="GET" action="/cotacao">
-    <input placeholder="Cotação do dólar (R$)"type="number" name="cotacao" step="0.01" value="<%= cotacao %>">
-    <input placeholder="Quantidade em dólares ($)" type="number" name="quantidade" step="0.01">
-    <button>Converter</button>
+<form method="GET" action="/cotacao" id="form">
+    <input placeholder="Cotação do dólar (R$)" type="number" id="cotacao" min="0" step="0.0001"name="cotacao" value="<%= cotacao %>">
+    <input placeholder="Quantidade em dólares" type="number" id="quant" min="0" step="0.0001"name="quantidade" >
+    <button id="botao">Converter</button>
 </form>
 <%- include('footer')%>
